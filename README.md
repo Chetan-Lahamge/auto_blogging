@@ -6,7 +6,7 @@ The Auto-Blogger is a Python-based application designed to automate the process 
 
 ### What's New?
 
-*   **Automated Image Generation:** Now featuring automated image generation for blog posts using DALL-E 3, with images stored in a local `images` directory.
+*   **Automated Image Generation:** Now featuring automated image generation for blog posts using DALL-E 3.
 *   **Enhanced Error Handling:** Improved error handling with `tenacity` for robust retries on API calls and comprehensive logging for easier debugging.
 *   **UI/UX Enhancements:** The Streamlit interface has been updated for a more intuitive user experience.
 *   **Code Refactoring:** The codebase has been modularized for better readability and maintainability.
@@ -33,7 +33,6 @@ The project is organized into the following directories:
     *   `trend_scraper.py`: Fetches trending topics.
     *   `blog_db.py`: Manages the local SQLite database for tracking blog posts.
     *   `config.py`: Stores application-wide configuration variables.
-*   `images/`: Stores generated images for blog posts.
 *   `requirements.txt`: Lists all Python dependencies.
 *   `.gitignore`: Specifies files and directories to be ignored by Git.
 *   `README.md`: This file.
