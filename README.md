@@ -99,7 +99,7 @@ This application interacts with the Google Blogger API. You need to set up OAuth
     *   Click "CREATE".
     *   **Download the `client_secret.json` file.** Save this file in the root directory of your project (e.g., `auto_blogger/client_secret.json`).
 5.  **Generate `token.json`:**
-    *   The project includes a utility script `auth_setup.py` (located in the root directory before project restructuring) to generate the `token.json` file, which stores your authentication tokens.
+    *   The project includes a utility script `auth_setup.py` to generate the `token.json` file, which stores your authentication tokens.
     *   Run this script from your project's root directory:
         ```bash
         python auth_setup.py
