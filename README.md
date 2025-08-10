@@ -51,7 +51,7 @@ This guide will walk you through setting up and running the Auto-Blogger applica
 First, clone the project repository to your local machine:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Chetan-Lahamge/auto_blogging.git
 cd auto_blogger
 ```
 
